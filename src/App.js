@@ -34,6 +34,9 @@ export default class App extends Component{
                     <VideoDetail video={this.state.selectedVideo} />
                     <VideoList videos={this.state.videos} onVideoSelect={selectedVideo => this.setState({selectedVideo})} />
                 </div>
+                <a href="https://github.com/phalvinayak/ReactNearBy" target="_blank">
+                    <img style={{position: "absolute", top: 0, right: 0,border: 0}} src="/icons/ribbon.png" alt="Fork me on GitHub" />
+                </a>
             </div>
         );
     }
